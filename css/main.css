@@ -1,0 +1,202 @@
+
+/* ****  BASE STYLES **** */
+
+
+body {
+    background-color: #1f202b;
+    color: #C0C0C0;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+    font-size: 1.7em;
+    margin: 30px 0;
+}
+
+h3, h4, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    color: #fa0075;
+}
+
+
+/*****   GRID STYLES  *****/
+
+
+.full-width {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.half-width {
+    width: 48%;
+    float: left;
+}
+
+.third-width {
+    width: 31%;
+    float: left;
+}
+
+
+/* ****   HEADER STYLES   **** */
+
+
+header h1 {
+    font-size: 1.5em;
+    margin-left: 20px;
+    width: 100%;
+}
+
+header nav {
+    float: right;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #C0C0C0;
+    font-size: 1.6em;
+    padding: 20px; 
+}
+
+header a:hover {
+    color: #fa0075
+}
+
+#tag {
+    clear: both;
+    background: url("../img/hero-background.png");
+    background-size: cover;
+    text-align: left;
+    font-size: 2em;
+    padding: 200px 0px 150px 100px;
+}
+
+
+/* ****   PORTFOLIO STYLE   **** */
+
+
+#portfolio .half-width {
+    height: 420px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#portfolio h2 {
+    font-size: 1.7em;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#portfolio h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+#portfolio h4 {
+    font-size: 1em;
+    margin: 0;
+}
+
+#portfolio p {
+    font-size: 1.2em;
+}
+
+#jub {
+    text-align: right;
+}
+
+#holstee {
+    margin-bottom: 50px;
+}
+
+img {
+    width: 100%;
+    padding: 0px;
+}
+
+
+/* ****   ABOUT ME   **** */
+
+
+#about {
+    clear: both;
+    background-image: url(../img/about-me.png);
+    background-size: cover;
+}
+
+#about h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#about p {
+    width: 40%;
+    padding: 20px 0px 100px 30px;
+    margin: 20px;
+    color: #1f202b;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+
+/*****   CONTACT STYLES   *****/
+
+
+.third-width {
+    text-align: center;
+    padding: 75px 10px;
+}
+.third-width h3 {
+    font-size: 1.3em;
+}
+.third-width p {
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+#contact h2 {
+    text-align: center;
+}
+
+#email a {
+    text-decoration: none;
+    color: #fa0075;
+}
+
+#follow ul {
+    list-style: none;
+}
+
+#follow ul li {
+     display: inline-block;
+}
+
+#follow ul a {
+    font-size: 2.2em;
+    padding-right: 48px;
+}
+
+#meet span {
+    font-weight: 900;
+}
+
+#contact h4 {
+    text-align: center;
+}
