@@ -3,8 +3,8 @@
 
 
 body {
-    background-color: #1f202b;
-    color: #C0C0C0;
+    background-color: #1c0235;
+    color: #E7DCE6;
     margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@ h3, h4, p {
 }
 
 span {
-    color: #fa0075;
+    color: #005ead;
 }
 
 
@@ -69,22 +69,22 @@ header ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #C0C0C0;
+    color: #E7DCE6;
     font-size: 1.6em;
     padding: 20px; 
 }
 
 header a:hover {
-    color: #fa0075
+    color: #005ead
 }
 
 #tag {
     clear: both;
-    background: url("../img/hero-background.png");
+    background: url("../img/hero-background-purple.jpg");
     background-size: cover;
     text-align: left;
     font-size: 2em;
-    padding: 200px 0px 150px 100px;
+    padding: 100px 0px 200px 100px;
 }
 
 
@@ -150,7 +150,7 @@ img {
     width: 40%;
     padding: 20px 0px 100px 30px;
     margin: 20px;
-    color: #1f202b;
+    color: #1c0235;
     font-size: 1.2em;
     font-weight: 600;
     line-height: 1.5em;
@@ -177,7 +177,7 @@ img {
 
 #email a {
     text-decoration: none;
-    color: #fa0075;
+    color: #005ead;
 }
 
 #follow ul {
